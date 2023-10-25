@@ -1,0 +1,39 @@
+.frase{
+    color: #FCC3A5;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    text-shadow: 4px 4px 7px #662d0e;
+}
+
+.bolinhas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lanches, .porcoes, .bebidas, .sobremesas{
+    width: 20%;
+}
+
+.combos{
+    width: 40%;
+}
+
+.lanches, .porcoes, .bebidas, .sobremesas, .combos{
+    text-align: center;
+    font-size: 5px;
+    color: #FCC3A5;
+
+}
+
+img{
+    width: 90%;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.combos img{
+    border-radius: 50px !important;
+}

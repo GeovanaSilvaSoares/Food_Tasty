@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.dark-mode .card-burguer {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.card-burguer {
+    width: 850px;
+    height: 330px;
+    background-color: rgb(221, 150, 150);
+    border: 1.5px solid #f23;
+    color: #000;
+    border-radius: 12px;
+    padding: 2%;
+    align-items: center;
+    margin: 25px;
+}
+
+.card-burguer:hover {
+    box-shadow: 0 0 25px #f23;
+}
+
+.card-burguer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 18px;
+}
+
+.card-burguer img:hover {
+    box-shadow: 0 0 20px #f23;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode .card-burguer h2 {
+    text-shadow: 2px 2px 15px #f23;
+}
+.card-burguer h2 {
+    color: #fff;
+    text-shadow: 0 0 20px #f23,
+    0 0 40px rgb(226, 17, 34),
+    0 0 60px rgb(133, 0, 11);
+    font-size: 40px;
+    text-align: center;
+}
+
+#valor {
+    margin-left: 130px;
+}
+
+.card-burguer button {
+    margin-left: 90px;
+}

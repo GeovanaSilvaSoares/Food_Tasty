@@ -1,0 +1,20 @@
+
+.modal-body {
+    color: #000;
+}
+
+#cont1{
+    text-align: center;
+    color: #c20303;
+    text-shadow: 0 0 20px #c20303;
+    font-size: 50px;
+    margin-top: -5%;
+}   
+
+#cont {
+    color: #c20303;
+}
+
+p svg {
+    color: #c20303;
+}

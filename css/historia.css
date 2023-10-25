@@ -1,0 +1,46 @@
+.historia{
+    background-color: #4f2222;
+    text-align: center;
+}
+
+.tituloHistoria h1{
+    color: #e9aba9;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px #2c0303;
+
+}
+
+.tituloHistoria h2{
+    color: #2c0303;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textoHistoria{
+    margin: 50px;
+    margin-top: 30px;
+    color: #f0f0f0;
+}
+
+.criadores{
+    background-color: #431414c1;
+    padding: 50px;
+    color: #fbfbfb;
+}
+
+.geovana{
+    text-align: right;
+}
+
+.geovana img{
+    width: 20%;
+    border-radius: 5%;
+}
+
+.beatriz img{
+    width: 20%;
+    border-radius: 5%;
+}

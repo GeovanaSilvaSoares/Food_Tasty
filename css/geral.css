@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+.menu {
+    background-color: rgba(63, 6, 6, 0.993);
+    width: 100%;
+    height: 77px;
+}
+
+.menu li {
+    display: table-cell;
+    padding: 15px 0;
+
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size: 11px;
+    border-width: 0%;
+}
+
+.menu a:hover {
+    color: #f23;
+    border-bottom: solid 1.5px #f23;
+    border-bottom-width: 100%;
+    transition: .8s ease;
+    text-shadow: 0 0 20px #f23;
+    font-size: 13px;
+}
+
+
+/* Modo escuro */
+.modo-escuro button {
+    border-radius: 50%;
+    border: solid 1.5px #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 35px;
+    height: 32px;
+    align-items: center;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.modo-escuro button:hover {
+    border: solid 1.5px rgb(253, 76, 91);
+    box-shadow: 0 0 15px rgb(253, 76, 91);
+    text-shadow: 0 0 15px rgb(253, 76, 91);
+    color: #f23;
+    transition: 1.5s ease-in-out;
+}
+
+/* Footer */
+footer {
+    background-color: #202020;
+    width: 100%;
+    border-top: 2px solid rgb(253, 28, 47);
+    color: #fff;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.colunas {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#geovana {
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 0.9%;
+}
+
+#links{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.redes-sociais h2 {
+    color: #ffffff;
+    font-size: 22px;
+    border-bottom: 1.6px solid rgb(253, 28, 47);
+}
+
+#nome-footer {
+    font-size: 15px;
+    color: #3a3a3a;
+    text-align: center;
+}
+
+.redes-sociais h3{
+    color: rgb(253, 28, 47);
+    font-size: 16px;
+    cursor:default;
+}
+
+/* Icons */
+
+.linha-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    border-radius: 50%;
+    border: solid 1.6px #666666;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.icons svg {
+    width: 25px;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 17%;
+    color: #666666;
+}
+
+/* linkedin */
+#linkedin:hover   {
+    border: solid 1.2px #2a0ab8;
+    background-color: #2a0ab8;
+    box-shadow: 0 0 8px #2a0ab8;
+    color: #fff;
+}
+
+.icons svg:hover {
+    color: #fff;
+}
+
+/* Github */
+#github:hover   {
+    border: solid 1.2px #000;
+    background-color: #000;
+    box-shadow: 0 0 8px #000;
+}
+
+.icons svg:hover {
+    color: #fff;
+}
+
+/* Instagram */
+#insta:hover   {
+    border: solid 1.2px rgba(129,52,175,1);
+    background: rgb(81,91,212);
+    background: linear-gradient(0deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 35%, rgba(221,42,123,1) 61%, rgb(253, 204, 70) 86%, rgba(245,133,41,1) 100%);
+    box-shadow: 0 0 8px rgba(129,52,175,1);
+}
+
+/* Links */
+#links li {
+    color: #666666;
+    font-size: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: left;
+    margin-left: -25px;
+}
+
+#links li:hover {
+    color: rgb(253, 28, 47);
+    font-size: 15px;
+}
